@@ -1,8 +1,8 @@
 package tpjava10;
 
 public class Point {
-    public static final int INIT_X = 25;
-    public static final int INIT_Y = 25;
+    private static final int INIT_X = 25;
+    private static final int INIT_Y = 25;
 
     private int x;
     private int y;
