@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="TP2 Instanciation et constructeurs. Conclusion dans TestPersonne.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tpjava10/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tpjava10/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tpjava10/Rond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tpjava10/TestFormes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestPersonne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites2/Personne.java" afterDir="false" />
-    </list>
+    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="TP3 suite" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,12 +120,30 @@
       <option name="project" value="LOCAL" />
       <updated>1752571195680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TP java10">
+      <option name="closed" value="true" />
+      <created>1752585263687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752585263687</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TP3 suite">
+      <option name="closed" value="true" />
+      <created>1752585299591</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752585299591</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TP1 Créer et utiliser des classes. Réponse question 7 dans TestPersonne.java" />
     <MESSAGE value="TP2 Instanciation et constructeurs. Conclusion dans TestPersonne.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP2 Instanciation et constructeurs. Conclusion dans TestPersonne.java" />
+    <MESSAGE value="TP java10" />
+    <MESSAGE value="TP3 suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP3 suite" />
   </component>
 </project>
