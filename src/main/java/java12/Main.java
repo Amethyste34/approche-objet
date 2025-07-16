@@ -9,5 +9,13 @@ public class Main {
         System.out.println("\n=== Test CarreHerite (hérite de Rectangle) ===");
         CarreHerite c2 = new CarreHerite(new Point(5, 1), 3);
         c2.affiche();
+
+        System.out.println("\n=== Carre aléatoire ===");
+        Carre randomCarre = FigureUtil.getRandomCarre();
+        randomCarre.affiche();
+
+        System.out.println("\n=== CarreHerite aléatoire ===");
+        CarreHerite randomCarreHerite = FigureUtil.getRandomCarreHerite();
+        randomCarreHerite.affiche();
     }
 }

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="TP java11 Classe et méthode statique, modif variables en private">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java12/Carre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java12/CarreHerite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java12/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java12/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="TP java12 Heritage">
+      <change beforePath="$PROJECT_DIR$/src/main/java/java12/CarreHerite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java12/CarreHerite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java12/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java12/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java12/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java12/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TestAdressePostale.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestFigureUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestFormes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.TestAdressePostale.executor": "Run",
+    "Application.TestFigureUtil.executor": "Run",
+    "Application.TestFormes.executor": "Run",
+    "Application.TestPersonne.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java12.Main" />
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752593165827</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TP java12 Heritage">
+      <option name="closed" value="true" />
+      <created>1752658562470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752658562470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +212,7 @@
     <MESSAGE value="TP3 suite" />
     <MESSAGE value="TP java11 Classe et méthode statique" />
     <MESSAGE value="TP java11 Classe et méthode statique, modif variables en private" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP java11 Classe et méthode statique, modif variables en private" />
+    <MESSAGE value="TP java12 Heritage" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP java12 Heritage" />
   </component>
 </project>
