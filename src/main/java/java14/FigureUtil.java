@@ -14,7 +14,7 @@ public class FigureUtil {
     }
 
     public static Figure getRandomFigure() {
-        int type = getRandomInt(1, 4); // de 1 à 4 maintenant
+        int type = getRandomInt(1, 4);
         switch (type) {
             case 1:
                 return new Rond(getRandomPoint(), getRandomInt(1, 20));
