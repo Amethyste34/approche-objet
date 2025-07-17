@@ -1,21 +1,26 @@
 package java21;
 
-import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedHashSet;
 
 public class Dessin {
+
+    // Choix : LinkedHashSet pour garder l'ordre d'insertion ET éviter doublons
     private Collection<Figure> figures;
 
-    public  Dessin() {
-        // Je choisis ArrayList qui permet d'ajouter rapidement en fin de liste et de conserver l'ordre d'ajout
-        this.figures = new ArrayList<>();
+    public Dessin() {
+        this.figures = new LinkedHashSet<>();
     }
 
-    public boolean add(Figure f) {
-        return figures.add(f);
+    public Dessin(Collection<Figure> figures) {
+        this.figures = new LinkedHashSet<>(figures);
+    }
+
+    public boolean add(Figure figure) {
+        return figures.add(figure);
     }
 
     public Collection<Figure> getFigures() {
-        return figures;
+        return java.util.Collections.unmodifiableCollection(figures);
     }
 }

@@ -12,10 +12,9 @@ public class FigureUtil {
     }
 
     public static Point getRandomPoint() {
-        return new Point(getRandomInt(0, 100), getRandomInt(0, 100));
+        return new Point(getRandomInt(0, 99), getRandomInt(0, 99));
     }
 
-    // Génère une figure avec un point aléatoire
     public static Figure getRandomFigure() {
         Point p = getRandomPoint();
         return switch (rand.nextInt(5)) {
@@ -27,24 +26,21 @@ public class FigureUtil {
         };
     }
 
-    // Génère une figure à partir d’un Point donné
-    public static Figure getRandomFigure(Point p) {
-        return switch (rand.nextInt(5)) {
-            case 0 -> new Segment(p, getRandomInt(1, 10), rand.nextBoolean());
-            case 1 -> new Rond(p, getRandomInt(1, 10));
-            case 2 -> new Rectangle(p, getRandomInt(2, 12), getRandomInt(2, 12));
-            case 3 -> new Carre(p, getRandomInt(2, 12));
-            default -> new CarreHerite(p, getRandomInt(2, 12));
-        };
-    }
-
-    // À compléter : Surfacable et autres classes manquantes (Rond, Segment...)
-
+    // Choix de ArrayList car liste simple, accès rapide avec doublons possibles car figures aléatoires
     public static Collection<Figure> genere(int n) {
         Collection<Figure> figures = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             figures.add(getRandomFigure());
         }
         return figures;
+    }
+
+    // Choix ArrayList, collection ordonnée, facile à manipuler et à parcourir
+    public static Collection<Point> getPoints(Figure... figures) {
+        Collection<Point> points = new ArrayList<>();
+        for (Figure f : figures) {
+            points.addAll(f.getPoints());
+        }
+        return points;
     }
 }

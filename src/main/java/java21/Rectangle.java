@@ -7,13 +7,9 @@ public class Rectangle extends Figure {
     protected Point p1, p2, p3, p4;
 
     public Rectangle(Point p1, Point p2, Point p3, Point p4) {
-        this.p1 = p1;
-        this.p2 = p2;
-        this.p3 = p3;
-        this.p4 = p4;
+        this.p1 = p1; this.p2 = p2; this.p3 = p3; this.p4 = p4;
     }
 
-    // Option alternative : constructeur par coin + largeur + hauteur
     public Rectangle(Point p, int largeur, int hauteur) {
         this(p,
                 new Point(p.getX() + largeur, p.getY()),
@@ -23,7 +19,7 @@ public class Rectangle extends Figure {
 
     @Override
     public Collection<Point> getPoints() {
-        return List.of(p1, p2, p3, p4);  // OK de retourner List (qui est Collection)
+        return List.of(p1, p2, p3, p4);
     }
 
     @Override
@@ -32,31 +28,29 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    public String toString() {
-        return "RECTANGLE " + p1 + p2 + p3 + p4;
+    public void affiche() {
+        System.out.println(getNom() + " " + toString());
     }
 
     @Override
-    public void affiche() {
-        System.out.println(this.getNom() + " : " + this.toString());
+    public String toString() {
+        return p1 + " " + p2 + " " + p3 + " " + p4;
     }
 
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
-        if (obj == null) return false;
+        if (!(obj instanceof Rectangle other)) return false;
+        return p1.equals(other.p1) && p2.equals(other.p2)
+                && p3.equals(other.p3) && p4.equals(other.p4);
+    }
 
-        if (obj instanceof Rectangle other) {
-            // Deux rectangles sont égaux si leurs 4 points sont égaux (ordre identique)
-            return p1.equals(other.p1) && p2.equals(other.p2)
-                    && p3.equals(other.p3) && p4.equals(other.p4);
-        }
-
-        // Un carré peut être égal à un rectangle, donc on peut vérifier si obj est un Carre
-        if (obj instanceof Carre carre) {
-            return this.equals((Rectangle) carre); // Carre hérite de Rectangle donc cast OK
-        }
-
-        return false;
+    @Override
+    public int hashCode() {
+        int result = p1.hashCode();
+        result = 31 * result + p2.hashCode();
+        result = 31 * result + p3.hashCode();
+        result = 31 * result + p4.hashCode();
+        return result;
     }
 }
