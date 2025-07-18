@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="TP java21">
+    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="TP java21 après modif de l'énoncé">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Carre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/CarreHerite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Dessin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/FigureUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Rond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java22/Surfacable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Carre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/CarreHerite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Dessin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/FigureUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Rond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java23/Surfacable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/Carre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/Carre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/CarreHerite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/CarreHerite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/Dessin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/Dessin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/FigureUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/FigureUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java21/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java21/Segment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +68,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Laure/IdeaProjects/approche-objet/src/main/java/java21"
+    "last_opened_file_path": "C:/Users/Laure/IdeaProjects/approche-objet/src/main/java/java23"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java23" />
+      <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java22" />
       <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java21" />
       <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java20" />
       <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java15" />
-      <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java14" />
-      <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.java21.Main">
-    <configuration name="java13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java13.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java22.Main" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java13.*" />
+          <option name="PATTERN" value="java22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.java21.Main" />
         <item itemvalue="Application.java20.Main" />
         <item itemvalue="Application.java15.Main" />
         <item itemvalue="Application.java14.Main" />
-        <item itemvalue="Application.java13.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752754533881</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="TP java21 après modif de l'énoncé">
+      <option name="closed" value="true" />
+      <created>1752756828647</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752756828647</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,6 +326,7 @@
     <MESSAGE value="TP java14" />
     <MESSAGE value="TP java20" />
     <MESSAGE value="TP java21" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP java21" />
+    <MESSAGE value="TP java21 après modif de l'énoncé" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP java21 après modif de l'énoncé" />
   </component>
 </project>
