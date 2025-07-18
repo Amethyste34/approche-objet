@@ -30,10 +30,11 @@ public class FigureUtil {
     public static List<Figure> trieDominant(Dessin d) {
         List<Figure> list = new ArrayList<>();
         for (Figure f : d.getFigures()) {
-            if (f instanceof Surfacable s) {
-                System.out.printf("%s surface = %.2f%n", f.getNom(), s.surface());
+            if (f instanceof Surfacable) {
+                list.add(f);
             }
         }
+        // Tri décroissant par surface
         list.sort((f1, f2) -> {
             double s1 = ((Surfacable) f1).surface();
             double s2 = ((Surfacable) f2).surface();
@@ -41,4 +42,5 @@ public class FigureUtil {
         });
         return list;
     }
+
 }

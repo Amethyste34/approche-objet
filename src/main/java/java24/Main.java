@@ -7,10 +7,10 @@ public class Main {
         Dessin dessin = new Dessin();
 
         // Ajout manuel de quelques figures pour garantir un Carre
-        dessin.ajouter(new Rectangle(new Point(50, 50), 10, 10));
+        dessin.ajouter(new Rectangle(new Point(5, 6), 20, 10));
         dessin.ajouter(new Carre(new Point(10, 10), 20));
-        dessin.ajouter(new CarreHerite(new Point(50, 50), 10));
-        dessin.ajouter(new Rond(new Point(30, 30), 5));
+        dessin.ajouter(new CarreHerite(new Point(300, 120), 10));
+        dessin.ajouter(new Rond(new Point(100, 70), 5));
 
         System.out.println("===   Figures originales   ===");
         for (Figure f : dessin.getFigures()) {
