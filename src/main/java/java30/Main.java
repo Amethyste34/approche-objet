@@ -6,7 +6,7 @@ public class Main {
 
         // Créer des figures avec couleurs différentes
         Carre carreRouge = new Carre(new Point(10, 10), 20, Couleur.ROUGE);
-        Rond rondBleu = new Rond(new Point(30, 30), 5, Couleur.BLEU);
+        Rond rondBleu = new Rond(Couleur.BLEU, new Point(30, 30), 5);
         Rectangle rectangleNoir = new Rectangle(new Point(50, 50), 15, 10, Couleur.NOIR);
         Carre carreVert = new Carre(new Point(60, 60), 10, Couleur.VERT);
 

@@ -21,7 +21,7 @@ public class FigureUtil {
 
     public static Figure getRandomFigure() {
         return switch (rand.nextInt(3)) {  // 3 cas : 0,1,2
-            case 0 -> new Rond(getRandomPoint(), getRandomInt(1, 10), getRandomCouleur());
+            case 0 -> new Rond(getRandomCouleur(), getRandomPoint(), getRandomInt(1, 10));
             case 1 -> new Rectangle(getRandomPoint(), getRandomInt(5, 15), getRandomInt(5, 15), getRandomCouleur());
             case 2 -> new Carre(getRandomPoint(), getRandomInt(5, 15), getRandomCouleur());
             default -> throw new IllegalStateException("Unexpected value");
@@ -69,7 +69,7 @@ public class FigureUtil {
     }
 
     public static Rond getRandomRond(String id) {
-        Rond rond = new Rond(new Point(25, 25), 10, getRandomCouleur());
+        Rond rond = new Rond(getRandomCouleur(), new Point(25, 25), 10);
         figuresMap.put(id, rond);
         return rond;
     }

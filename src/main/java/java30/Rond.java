@@ -2,24 +2,19 @@ package java30;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.Objects;
 
 public class Rond extends Figure implements Surfacable {
     private Point centre;
     private int rayon;
 
-    // Constructeur sans couleur, utilise couleur par défaut
-    public Rond(Point centre, int rayon) {
-        super(centre);  // couleur par défaut via Figure(Point... points)
-        this.centre = new Point(centre.getX(), centre.getY());
+    public Rond(Couleur couleur, Point centre, int rayon) {
+        super(couleur, centre);
+        this.centre = centre;
         this.rayon = rayon;
     }
 
-    // Constructeur avec couleur
-    public Rond(Point centre, int rayon, Couleur couleur) {
-        super(couleur, centre); // couleur explicite + point centre
-        this.centre = new Point(centre.getX(), centre.getY());
-        this.rayon = rayon;
+    public Rond(Point centre, int rayon) {
+        this(Couleur.getCouleurDefaut(), centre, rayon);
     }
 
     @Override
@@ -34,26 +29,24 @@ public class Rond extends Figure implements Surfacable {
 
     @Override
     public void affiche() {
-        System.out.println(getNom() + " " + toString());
+        System.out.println(getNom() + " " + couleur + " centre: " + centre + ", rayon: " + rayon);
     }
 
     @Override
     public String toString() {
-        return couleur.getCode() + " centre: " + centre + ", rayon: " + rayon;
+        return couleur + " centre: " + centre + ", rayon: " + rayon;
     }
 
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (!(obj instanceof Rond other)) return false;
-        return this.rayon == other.rayon &&
-                this.centre.equals(other.centre) &&
-                this.couleur == other.couleur;
+        return couleur == other.couleur && centre.equals(other.centre) && rayon == other.rayon;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(centre, rayon, couleur);
+        return 31 * (31 * couleur.hashCode() + centre.hashCode()) + rayon;
     }
 
     @Override

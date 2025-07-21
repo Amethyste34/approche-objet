@@ -76,6 +76,6 @@ public class Rectangle extends Figure implements Surfacable {
 
     @Override
     public String toString() {
-        return couleur.getCode() + " " + Arrays.toString(points);
+        return couleur + " " + Arrays.toString(points);
     }
 }

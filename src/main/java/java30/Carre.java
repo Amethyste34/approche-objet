@@ -27,7 +27,7 @@ public class Carre extends Rectangle {
 
     @Override
     public String toString() {
-        return couleur.getCode() + " " + getPoints();
+        return couleur + " " + getPoints();
     }
 
     @Override
