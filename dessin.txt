@@ -1,0 +1,5 @@
+Rond; x=84; y=35; rayon=4; couleur=Bleu
+Rond; x=71; y=97; rayon=1; couleur=Rouge
+Segment; x=33; y=66; longueur=25; horizontal=false; couleur=Vert
+Rond; x=58; y=69; rayon=22; couleur=Bleu
+Rectangle; x=43; y=73; largeur=56; hauteur=16; couleur=Jaune
