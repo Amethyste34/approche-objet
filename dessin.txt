@@ -1,5 +1,5 @@
-Rond; x=84; y=35; rayon=4; couleur=Bleu
-Rond; x=71; y=97; rayon=1; couleur=Rouge
-Segment; x=33; y=66; longueur=25; horizontal=false; couleur=Vert
-Rond; x=58; y=69; rayon=22; couleur=Bleu
-Rectangle; x=43; y=73; largeur=56; hauteur=16; couleur=Jaune
+Segment; x=75; y=36; longueur=10; horizontal=true; couleur=Jaune
+Segment; x=49; y=49; longueur=23; horizontal=true; couleur=Vert
+Carre; x=47; y=20; cote=21; couleur=Rouge
+Carre; x=69; y=28; cote=19; couleur=Jaune
+Rond; x=11; y=23; rayon=30; couleur=Rouge
