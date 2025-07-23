@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="Exercice CalculMoyenne : TP en auto-formation (23/07/25)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/Theatre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/essais/TestTheatre.java" afterDir="false" />
+    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="Exercice Theatre : TP en auto-formation (23/07/25)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chaines/ManipulationChaine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entites/Salarie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/essais/TestMaison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maison/Chambre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maison/Cuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maison/Maison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maison/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maison/SalleDeBain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maison/Salon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maison/WC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +46,15 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.ManipulationChaine.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestFigureUtil.executor": "Run",
     "Application.TestFormes.executor": "Run",
+    "Application.TestMaison.executor": "Run",
     "Application.TestMoyenne.executor": "Run",
     "Application.TestOperations.executor": "Run",
     "Application.TestPersonne.executor": "Run",
+    "Application.TestTheatre.executor": "Run",
     "Application.java13.Main.executor": "Run",
     "Application.java14.Main.executor": "Run",
     "Application.java15.Main.executor": "Run",
@@ -73,13 +84,13 @@
       <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java24" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestTheatre">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciceNote.Main" />
+  <component name="RunManager" selected="Application.TestMaison">
+    <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chaines.ManipulationChaine" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciceNote.*" />
+          <option name="PATTERN" value="chaines.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciceNote.Main2" />
+    <configuration name="TestMaison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="essais.TestMaison" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciceNote.*" />
+          <option name="PATTERN" value="essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMaison" />
+        <item itemvalue="Application.ManipulationChaine" />
         <item itemvalue="Application.TestTheatre" />
         <item itemvalue="Application.TestMoyenne" />
         <item itemvalue="Application.TestOperations" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -414,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1753261185357</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Exercice Theatre : TP en auto-formation (23/07/25)">
+      <option name="closed" value="true" />
+      <created>1753262896099</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1753262896099</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TP3 suite" />
     <MESSAGE value="TP java11 Classe et méthode statique" />
     <MESSAGE value="TP java11 Classe et méthode statique, modif variables en private" />
     <MESSAGE value="TP java12 Heritage" />
@@ -443,6 +461,7 @@
     <MESSAGE value="java31 fichier de texte généré pour tester sauvegarde et lecture d'un fichier" />
     <MESSAGE value="Exercice Opérations : TP en auto-formation (23/07/25)" />
     <MESSAGE value="Exercice CalculMoyenne : TP en auto-formation (23/07/25)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice CalculMoyenne : TP en auto-formation (23/07/25)" />
+    <MESSAGE value="Exercice Theatre : TP en auto-formation (23/07/25)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice Theatre : TP en auto-formation (23/07/25)" />
   </component>
 </project>
