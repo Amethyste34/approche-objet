@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="Exercice Combat : TP en auto-formation (23/07/25)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/LectureFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichier/LectureFichierAvecInstanciation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/ApplicationRecensement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/Recensement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/RecherchePopulationDepartement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/RecherchePopulationRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/RecherchePopulationVille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/Top10Departements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/Top10Regions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/Top10VillesDepartement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/Top10VillesFrance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recensement/services/Top10VillesRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/recensement.csv" afterDir="false" />
+    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="Exercice Recensement : TP en auto-formation (24/07/25)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +81,7 @@
       <recent name="C:\Users\Laure\IdeaProjects\approche-objet\src\main\java\java24" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationRecensement">
+  <component name="RunManager" selected="Application.LectureFichier">
     <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recensement.ApplicationRecensement" />
       <module name="approche-objet" />
@@ -164,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LectureFichier" />
         <item itemvalue="Application.ApplicationRecensement" />
         <item itemvalue="Application.LectureFichierAvecInstanciation" />
-        <item itemvalue="Application.LectureFichier" />
         <item itemvalue="Application.Jeu" />
         <item itemvalue="Application.TestMaison" />
       </list>
@@ -461,12 +446,19 @@
       <option name="project" value="LOCAL" />
       <updated>1753279110893</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Exercice Recensement : TP en auto-formation (24/07/25)">
+      <option name="closed" value="true" />
+      <created>1753349054514</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1753349054514</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TP java12 Heritage" />
     <MESSAGE value="TP java12 Heritage, ajout carré random et carré hérité random" />
     <MESSAGE value="TP java13" />
     <MESSAGE value="TP java15" />
@@ -491,6 +483,7 @@
     <MESSAGE value="Exercice Theatre : TP en auto-formation (23/07/25)" />
     <MESSAGE value="Exercice Immobilier : TP en auto-formation (23/07/25)" />
     <MESSAGE value="Exercice Combat : TP en auto-formation (23/07/25)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice Combat : TP en auto-formation (23/07/25)" />
+    <MESSAGE value="Exercice Recensement : TP en auto-formation (24/07/25)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice Recensement : TP en auto-formation (24/07/25)" />
   </component>
 </project>

@@ -1,9 +1,8 @@
 package fichier;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.List;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 /**
  * @author Laurence SAGOT, auto-formation le 23/07/25
@@ -18,11 +17,18 @@ public class LectureFichier {
      */
     public static void main(String[] args) {
         try {
-            List<String> lignes = Files.readAllLines(Paths.get("recensement.csv"));
-            for (String ligne : lignes) {
-                System.out.println(ligne);
+            InputStream is = LectureFichier.class.getClassLoader().getResourceAsStream("recensement.csv");
+            if (is == null) {
+                throw new RuntimeException("Fichier recensement.csv introuvable dans les ressources.");
             }
-        } catch (IOException e) {
+
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(is))) {
+                String ligne;
+                while ((ligne = reader.readLine()) != null) {
+                    System.out.println(ligne);
+                }
+            }
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
