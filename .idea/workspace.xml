@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="Exercice Recensement : TP en auto-formation (24/07/25). Correction code de la classe LectureFIchier">
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/app/ApplicationOpenFoodFacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/entites/Additif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/entites/Allergene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/entites/Categorie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/entites/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/entites/Marque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/entites/Produit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/entites/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/openfoodfacts/services/StockService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/open-food-facts.csv" afterDir="false" />
+    <list default="true" id="669b69dc-1a2b-4501-b4e0-f205383a64b8" name="Changes" comment="Exercice open food facts (bonus) : TP en auto-formation (24/07/25).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -476,12 +466,19 @@
       <option name="project" value="LOCAL" />
       <updated>1753350207973</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Exercice open food facts (bonus) : TP en auto-formation (24/07/25).">
+      <option name="closed" value="true" />
+      <created>1753371380978</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1753371380978</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TP java13" />
     <MESSAGE value="TP java15" />
     <MESSAGE value="TP java14" />
     <MESSAGE value="TP java20" />
@@ -506,6 +503,7 @@
     <MESSAGE value="Exercice Combat : TP en auto-formation (23/07/25)" />
     <MESSAGE value="Exercice Recensement : TP en auto-formation (24/07/25)" />
     <MESSAGE value="Exercice Recensement : TP en auto-formation (24/07/25). Correction code de la classe LectureFIchier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice Recensement : TP en auto-formation (24/07/25). Correction code de la classe LectureFIchier" />
+    <MESSAGE value="Exercice open food facts (bonus) : TP en auto-formation (24/07/25)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice open food facts (bonus) : TP en auto-formation (24/07/25)." />
   </component>
 </project>
